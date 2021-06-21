@@ -1,0 +1,250 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap");
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h4 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+/* nav */
+nav {
+  background-color: hsl(217, 28%, 15%);
+}
+
+.logo {
+  width: 100%;
+}
+
+.nav-link {
+  color: white;
+}
+
+.nav-link:hover {
+  color: white;
+  font-weight: 700;
+  border-bottom: 1px solid white;
+}
+
+/* section-1 */
+
+.file {
+  background-color: hsl(217, 28%, 15%);
+  padding: 150px 0;
+  background-image: url(./images/bg-curvy-desktop.svg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.file h1 {
+  width: 80%;
+  margin: 10px auto;
+}
+
+.file p {
+  width: 45%;
+  margin: 20px auto;
+}
+
+.file .btn {
+  padding: 10px 80px;
+  border-radius: 20px;
+  background-color: hsl(198, 60%, 50%);
+}
+
+.file .btn:hover {
+  background-color: hsl(176, 68%, 64%);
+}
+
+/* section-2 */
+
+.feature {
+  background-color: hsl(218, 28%, 13%);
+}
+
+.feature h4 {
+  margin-top: 20px;
+}
+
+.feature .sec {
+  margin-top: 10px;
+}
+
+/* section-3 */
+
+.productive {
+  background-color: hsl(218, 28%, 13%);
+}
+
+.productive a {
+  text-decoration: none;
+  color: hsl(176, 68%, 64%);
+  border-bottom: 1px solid hsl(176, 68%, 64%);
+}
+
+.productive a:hover {
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+/* section-4 */
+
+.testi {
+  background-color: hsl(218, 28%, 13%);
+  padding: 150px 0;
+}
+
+.quote {
+  width: 3%;
+}
+
+.card {
+  background-color: hsl(219, 30%, 18%);
+}
+
+/* section-5 */
+
+.access {
+  background: linear-gradient(180deg, hsl(218, 28%, 13%) 50%, hsl(216, 53%, 9%) 50%);
+}
+
+.access h2 {
+  margin: 10px auto;
+}
+
+.access p {
+  width: 70%;
+  margin: 20px auto;
+}
+
+form .btn {
+  width: 100%;
+  border-radius: 20px;
+  background-color: hsl(198, 60%, 50%);
+}
+
+form .btn:hover {
+  background-color: hsl(176, 68%, 64%);
+}
+
+.form-control {
+  border-radius: 20px;
+}
+
+.access .card {
+  background-color: hsl(217, 28%, 15%);
+}
+
+/* footer */
+
+.footer {
+  background-color: hsl(216, 53%, 9%);
+}
+
+.footer p {
+  font-size: 13px;
+}
+.row .bot {
+  width: 15%;
+  display: block;
+}
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer ul li {
+  text-decoration: none;
+  margin-bottom: 10px;
+  font-size: 13px;
+}
+
+.lin li a {
+  color: white;
+  text-decoration: none;
+}
+
+.lin li a:hover {
+  font-weight: 700;
+}
+
+.sosmed {
+  display: flex;
+}
+.sosmed li {
+  display: block;
+  margin-right: 10px;
+  border: 1px solid white;
+  padding: 8px;
+  border-radius: 50%;
+}
+
+.sosmed li:hover {
+  color: hsl(176, 68%, 64%);
+  border: 1px solid hsl(176, 68%, 64%);
+}
+
+@media (max-width: 576px) {
+  .btn {
+    width: 100%;
+  }
+
+  /* navbar */
+  .logo {
+    width: 60%;
+  }
+  .navbar-nav {
+    display: flex;
+    flex-direction: row !important;
+  }
+
+  .nav-item {
+    margin-right: 5px;
+  }
+
+  /* section-1 */
+  .file h1 {
+    width: 100%;
+  }
+
+  .file p {
+    width: 100%;
+  }
+
+  /* section-2 */
+  .sec,
+  .stor {
+    padding-top: 3rem;
+  }
+
+  /* section-4 */
+  .quote {
+    width: 10%;
+  }
+
+  .testi .card {
+    margin-bottom: 20px;
+  }
+
+  /* section-5 */
+  .access p {
+    width: 100%;
+  }
+
+  form input {
+    margin-bottom: 20px;
+  }
+
+  /* footer */
+  .row .bot {
+    width: 70%;
+    display: block;
+  }
+  .sosmed {
+    justify-content: center;
+  }
+}
